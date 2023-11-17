@@ -12,7 +12,7 @@ github-repo: openscapes/series
 description: "A mini bookdown tutorial book on how to make bookdown books."
 ---
 
-# Welcome {#welcome}
+# Introduction {#welcome}
 
 hi
 
