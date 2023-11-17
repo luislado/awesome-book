@@ -1,7 +1,7 @@
-introduction
+setup
 github.
 learn-all-about-bookdown
-setup
+setupa
 get-bookdown-tutorial-going-on-your-local-computer
 create-your-awesome-book-github-repo
 turn-bookdown-tutorial-into-awesome-book
