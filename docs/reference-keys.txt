@@ -1,4 +1,5 @@
-welcome
+introduction
+github.
 learn-all-about-bookdown
 setup
 get-bookdown-tutorial-going-on-your-local-computer
