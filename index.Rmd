@@ -12,7 +12,6 @@ github-repo: openscapes/series
 description: "A mini bookdown tutorial book on how to make bookdown books."
 ---
 
-# Introduction {#welcome}
 # Introduction {#introduction}
 
 Legacy soil data is regarded as a crucial scientific resource  in assessing ecosystem health and biodiversity as well as in digital soil mapping (DSM) in studies. Historical soil data helps identify soil quality trends, guiding environmental cleanup and rehabilitation efforts. However, the use of this data faces challenges due to its inherent heterogeneity. This data is often fragmented, decentralised, in different formats, both paper or digital, and  without any kind of harmonisation and quality assessment. This variability in legacy databases arises from multiple factors: the specific goals set for sampling campaigns, the level of precision in measurements and reported data, variations in the depth distribution and the maximum depth of soil samples, the geographical extent of the sampling, and the methodology employed in the sampling design, (Arrouays et al., 2017, and Dobos et al., 2010, Schillaci, 2019). This diversity in the data underscores the complexity and challenges in utilising legacy soil data effectively.
@@ -29,21 +28,9 @@ In risk assessment and management, soil data is necessary in assessing risks suc
 The significance of soil data repositories is clear in the context of digital soil mapping, a field gaining increasing importance in agriculture, environmental management, and climate change mitigation. Data repositories make complex soil information more accessible, simplifying it for a wide range of users, and act as crucial sources of the data necessary for training digital mapping algorithms. This data, encompassing historical and current soil information, is key to calibrating digital soil models, thereby sharpening the accuracy and enhancing the resolution of soil maps.
 In this context, soil data repositories play an essential role in predictive modelling addressing key issues such as food security and global environmental changes. They aid in the projection of soil changes under various scenarios like climate change and land use shifts and enabling broad-scale soil assessments at regional and global levels. They assist in identifying risks such as soil erosion and contamination, which are vital for informed and sustainable land management practices. By merging soil data with other environmental datasets, these repositories enable interdisciplinary research, pushing the boundaries in soil science and the methodologies used in digital soil mapping.
 
-hi
+[Global Soil Nutrient and Nutrient Budgets maps (GSNmap) Phase I Technical manual] (https://fao-gsp.github.io/GSNmap-TM/) (Harmonize Soil Layer Depths).
 
-It's possible to create beautiful books for free using [RStudio's R Markdown](http://rmarkdown.rstudio.com/) and Yihui Xie's [bookdown](https://bookdown.org/yihui/bookdown/) and hosting them on [Github](http://github.com). This is pretty new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.
-
-This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout. It also parallels a previous tutorial [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/).
-
-The best way to learn is to follow along with your own laptop, but all are welcome. We'll spend half the time with the tutorial and half the time for you to work on your own website and get help. If you bring your laptop please do this beforehand: 
-
-1. install [RStudio](https://www.rstudio.com/products/rstudio/download/)
-1. create a [GitHub]((http://github.com)) account ([advice](http://happygitwithr.com/github-acct.html))
-1. set up your computer to talk to GitHub
-    - have RStudio linked directly (highly recommended) ([instructions sections 8-14](http://happygitwithr.com/hello-git.html))
-    - or install the [Desktop App](https://desktop.github.com/)
-    - or be familiar with git commands for the command line ([tutorial](https://try.github.io/levels/1/challenges/1))
-
+[Github](http://github.com). 
 ----
 
 
