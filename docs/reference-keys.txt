@@ -1,7 +1,9 @@
-setup
+setupa
 github.
 learn-all-about-bookdown
-setupa
+introduction
+benefits-of-a-centralised-data-repository-for-soil-data.
+setup
 get-bookdown-tutorial-going-on-your-local-computer
 create-your-awesome-book-github-repo
 turn-bookdown-tutorial-into-awesome-book
