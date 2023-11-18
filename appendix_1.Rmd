@@ -1,0 +1,12 @@
+# Appendix I  {-}
+
+**SOME NOTABLE NATIONAL SOIL LEGACY DATA REPOSITORIES**
+
+* **New Zealand National Soil Data Repository (NSDR):**
+The National Soils Database (NSD) in New Zealand is a critical part of the soil data legacy. It includes descriptions and profile data collected from soil pits, with around 1500 New Zealand samples. These samples cover chemical, physical, and mineralogical characteristics of the soils. The NSDR hosts the original NSD and is designed as a versatile soil observation database, capable of generating new soil information from a diverse set of data sources. This includes soil quality data, National Soils database data, and DSM products.
+* **Australia Soil and Landscape Grids:**
+In Australia, the Soil and Landscape Grids were produced based on legacy soil data compiled in the National Soil Site Collation database. This database meets the specifications of the GlobalSoilMap project and includes 13 soil attribute surfaces that are publicly available. The predictions in this database were performed using cubist-kriging, a method for soil data analysis​​.
+* **United States Web Soil Survey (WSS):**
+The Web Soil Survey (WSS) provides soil data and information produced by the National Cooperative Soil Survey. Operated by the USDA Natural Resources Conservation Service (NRCS), it offers access to one of the largest natural resource information systems in the world. The WSS is a public-facing tool that provides comprehensive soil data for various applications​​.
+* **European Soil Data Centre (ESDAC):**
+The European Soil Data Centre (ESDAC) serves as a significant repository for soil-related data. ESDAC stands as the thematic centre for soil data in Europe, aiming to be the single reference point for all relevant soil data and information at the European level. It provides access to various authoritative European soil-related datasets such as the European Soil Database (ESDB). Unlike national soil data repositories that focus on specific countries or regions, ESDAC offers a broader perspective, presenting detailed soil information on an European scale.

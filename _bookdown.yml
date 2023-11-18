@@ -1,11 +1,16 @@
-book_filename: "series"
+book_filename: "NLSDR_Technical_Manual"
 language:
   ui:
     chapter_name: "Chapter "
 rmd_files: [
   "index.Rmd",
   "introduction.Rmd", 
-  "setup.Rmd",
-  "write.Rmd"]
+  "data_collection.Rmd",
+  "data_organization.Rmd",
+  "data_accessibility.Rmd", 
+  "integration_dsm.Rmd",
+  "appendix_1.Rmd",
+  "appendix_2.Rmd",
+  "references.Rmd"]
 delete_merged_file: true 
 output_dir: "docs"

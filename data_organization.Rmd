@@ -1,0 +1,38 @@
+# Data Organization{#data_organization}
+
+Various international standards do exist to ensure the quality of soil data. However, they tend to focus on general principles and quality-assurance frameworks rather than the detail of describing data quality (Briggs and Searle, 2016). In addition, data standards for soil data, generally, are not open and are difficult to find (Onerhime, 2020). This limits its implementation in real cases.
+Recently, there have been initiatives focused on incorporating ISO standards in the development and implementation of soil databases. These initiatives  are in an early stage of documentation and their implementation are complicated and require a high degree of specialisation. Establishing guidelines for the data format and structure in a national soil legacy data repository is essential to ensure consistency, accessibility, and interoperability of the data.
+
+## Guidelines for Data Format
+* **Standardised File Formats:**
+   *  Adopt universally recognized and widely used file formats for data storage, such as CSV, JSON, or XML for tabular data, and GeoJSON or Shapefiles for geospatial data.
+   *  Ensure these formats are compatible with common data analysis and GIS software.
+* **Consistency Across Datasets:**
+   *  Maintain consistent data formats across different datasets to facilitate easy integration and comparison.
+   *  Implement standard naming conventions and data structures within these formats.
+* **Support for Metadata:**
+   *  Choose formats that support extensive metadata, allowing detailed documentation of data origin, collection methods, and any processing steps.
+* **Long-term Accessibility:**
+   *  Consider the longevity and future accessibility of data formats, favouring those that are less likely to become obsolete.
+   
+## Guidelines for Data Structure
+
+* **Hierarchical Organization:**
+   *  Organise data in a clear, hierarchical structure, such as by geographic region, soil type, or collection date, to enhance user navigation and data retrieval.
+* **Uniformity in Data Representation:**
+   *  Standardise how different types of data are represented (e.g., consistent units of measurement, scales, and categorizations).
+* **Integration of Spatial Data:**
+   *  Structure the data to integrate seamlessly with spatial information, ensuring compatibility with GIS and mapping tools.
+* **Modular and Scalable Structure:**
+   *  Design the data structure to be modular and scalable, allowing for easy updates and the addition of new data without disrupting existing structures.
+* **Data Relationship Mapping:**
+   *  Clearly define and document the relationships between different datasets and variables within the repository. This can include relational database schemas or data dictionaries.
+* **Ease of Analysis:**
+   *  Structure data in a way that is conducive to typical analyses and queries, considering the needs of end-users such as researchers, policymakers, and farmers.
+* **Compliance with Standards:**
+   *  Adhere to relevant international standards, such as those from ISO or INSPIRE (Infrastructure for Spatial Information in Europe), for data structure and interoperability.
+
+
+
+
+

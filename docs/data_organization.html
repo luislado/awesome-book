@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Guidelines on Development of National Soil Legacy Data Repository</title>
+  <title>Chapter 3 Data Organization | Guidelines on Development of National Soil Legacy Data Repository</title>
   <meta name="description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta property="og:title" content="Chapter 3 Data Organization | Guidelines on Development of National Soil Legacy Data Repository" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta name="twitter:title" content="Chapter 3 Data Organization | Guidelines on Development of National Soil Legacy Data Repository" />
   
   <meta name="twitter:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="introduction.html"/>
+<link rel="prev" href="datacollection.html"/>
+<link rel="next" href="data_accessibility.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -140,24 +140,75 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Guidelines on Development of National Soil Legacy Data Repository</h1>
-<p class="author"><em><em>Rodriguez Lado, L., Angelini, M.E, Luotto, I., Yigini</em></em></p>
-<p class="date"><em>2023-11-18</em></p>
+<div id="data_organization" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Data Organization<a href="data_organization.html#data_organization" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Various international standards do exist to ensure the quality of soil data. However, they tend to focus on general principles and quality-assurance frameworks rather than the detail of describing data quality (Briggs and Searle, 2016). In addition, data standards for soil data, generally, are not open and are difficult to find (Onerhime, 2020). This limits its implementation in real cases.
+Recently, there have been initiatives focused on incorporating ISO standards in the development and implementation of soil databases. These initiatives are in an early stage of documentation and their implementation are complicated and require a high degree of specialisation. Establishing guidelines for the data format and structure in a national soil legacy data repository is essential to ensure consistency, accessibility, and interoperability of the data.</p>
+<div id="guidelines-for-data-format" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Guidelines for Data Format<a href="data_organization.html#guidelines-for-data-format" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Standardised File Formats:</strong>
+<ul>
+<li>Adopt universally recognized and widely used file formats for data storage, such as CSV, JSON, or XML for tabular data, and GeoJSON or Shapefiles for geospatial data.</li>
+<li>Ensure these formats are compatible with common data analysis and GIS software.</li>
+</ul></li>
+<li><strong>Consistency Across Datasets:</strong>
+<ul>
+<li>Maintain consistent data formats across different datasets to facilitate easy integration and comparison.</li>
+<li>Implement standard naming conventions and data structures within these formats.</li>
+</ul></li>
+<li><strong>Support for Metadata:</strong>
+<ul>
+<li>Choose formats that support extensive metadata, allowing detailed documentation of data origin, collection methods, and any processing steps.</li>
+</ul></li>
+<li><strong>Long-term Accessibility:</strong>
+<ul>
+<li>Consider the longevity and future accessibility of data formats, favouring those that are less likely to become obsolete.</li>
+</ul></li>
+</ul>
 </div>
-<div id="licence" class="section level1 unnumbered hasAnchor">
-<h1>Licence<a href="index.html#licence" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>The NLSDR Guideline Manual is made available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence</p>
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/igo/legalcode">CC BY-NC-SA 3.0 IGO</a>.</p>
+<div id="guidelines-for-data-structure" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Guidelines for Data Structure<a href="data_organization.html#guidelines-for-data-structure" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Hierarchical Organization:</strong>
+<ul>
+<li>Organise data in a clear, hierarchical structure, such as by geographic region, soil type, or collection date, to enhance user navigation and data retrieval.</li>
+</ul></li>
+<li><strong>Uniformity in Data Representation:</strong>
+<ul>
+<li>Standardise how different types of data are represented (e.g., consistent units of measurement, scales, and categorizations).</li>
+</ul></li>
+<li><strong>Integration of Spatial Data:</strong>
+<ul>
+<li>Structure the data to integrate seamlessly with spatial information, ensuring compatibility with GIS and mapping tools.</li>
+</ul></li>
+<li><strong>Modular and Scalable Structure:</strong>
+<ul>
+<li>Design the data structure to be modular and scalable, allowing for easy updates and the addition of new data without disrupting existing structures.</li>
+</ul></li>
+<li><strong>Data Relationship Mapping:</strong>
+<ul>
+<li>Clearly define and document the relationships between different datasets and variables within the repository. This can include relational database schemas or data dictionaries.</li>
+</ul></li>
+<li><strong>Ease of Analysis:</strong>
+<ul>
+<li>Structure data in a way that is conducive to typical analyses and queries, considering the needs of end-users such as researchers, policymakers, and farmers.</li>
+</ul></li>
+<li><strong>Compliance with Standards:</strong>
+<ul>
+<li>Adhere to relevant international standards, such as those from ISO or INSPIRE (Infrastructure for Spatial Information in Europe), for data structure and interoperability.</li>
+</ul></li>
+</ul>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="datacollection.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data_accessibility.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -188,7 +239,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/luislado/bookdown-tutorial/edit/master/index.Rmd",
+"link": "https://github.com/luislado/bookdown-tutorial/edit/master/data_organization.Rmd",
 "text": "Edit"
 },
 "history": {
