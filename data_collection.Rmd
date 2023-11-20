@@ -6,7 +6,10 @@ Despite these challenges, soil legacy data is often rich in contextual informati
 
 The creation of a National Soil Legacy Data Repository encompasses both proper methods and processes to gather soil data - data collection, standards and requirements for data to be added to the repository - data inclusion, and for quality assessment. Establishing guidelines for the collection, inclusion and quality of soil legacy data is crucial for ensuring the data's relevance, consistency and usefulness of the repository.
 
-There are several methods to retrieve information from legacy data. In the case that the original data is stored in the form of a digital database, its inclusion is direct even if some data harmonization is often required. However, in most of the cases, the original data is in paper format. In these cases the translation of the data to a digital database can be done either manually, using an OCR application or, more recently, using Deep Learning algorithms such as Natural Language Processing (NLP)  [@Hsu].
+There are several methods to retrieve information from legacy data. In the case that the original data is stored in the form of a digital database, its inclusion is direct even if some data harmonization is often required. However, in most of the cases, the original data is in paper format. In these cases the translation of the unstructured data in paper to a structured digital database can be done by: 
+* Manual Data Entry: Operators read the documents and manually transpose the data into the system. This is highly time-consuming and it is prone to mistakes. The output data has to be doubled checked to ensure data quality and consistency.
+* Semi-automated text detection: Using OCR technology.
+* Use Artificial Intelligence and Machine Learning: Documents are analysed and Data is extracted using Artificial Intelligence. This method makes use of combinations of techniques such as OCR, Deep Learning, Natural Language Processing (NLP) [@Hsu], etc to extract and classify the information from unstructured data and reduces considerably the processing time. There are application facilitating this methodology such as Google Cloud AI.
 
 ## Data Collection Guidelines
 * **Source Identification:**

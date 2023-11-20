@@ -1,6 +1,6 @@
 # Data Organization{#data_organization}
 
-Various international standards do exist to ensure the quality of soil data. However, they tend to focus on general principles and quality-assurance frameworks rather than the detail of describing data quality (Briggs and Searle, 2016). In addition, data standards for soil data, generally, are not open and are difficult to find (Onerhime, 2020). This limits its implementation in real cases.
+Various international standards do exist to ensure the quality of soil data. However, they tend to focus on general principles and quality-assurance frameworks rather than the detail of describing data quality [@Biggs2023]. In addition, data standards for soil data, generally, are not open and are difficult to find [@Onerhime2021]. This limits its implementation in real cases.
 Recently, there have been initiatives focused on incorporating ISO standards in the development and implementation of soil databases. These initiatives  are in an early stage of documentation and their implementation are complicated and require a high degree of specialisation. Establishing guidelines for the data format and structure in a national soil legacy data repository is essential to ensure consistency, accessibility, and interoperability of the data.
 
 ## Guidelines for Data Format
