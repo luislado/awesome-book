@@ -38,4 +38,4 @@ A centralised data repository for soil data offers a multitude of benefits, span
 
 A centralised data repository for soil data is a powerful tool that can transform how soil information is managed and utilised. By providing a platform for standardised, high-quality, and accessible soil data, it supports a range of activities from scientific research to policy making, ultimately contributing to more sustainable and informed management of soil resources worldwide.
 
-This manual can be read [bookdown format](https://luislado.github.io/awesome-book/).
+This manual has been written in [bookdown](https://luislado.github.io/awesome-book/) [@R-bookdown].
