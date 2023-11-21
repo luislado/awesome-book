@@ -1,0 +1,6 @@
+# Appendix III  {-}
+
+**Guidelines for Map Digitizing**
+
+Legacy soil maps area unvaluable source of information about the distribution of soils and its properties. These maps are in the form of paper sheets that must be translated into proper digital formats. 
+

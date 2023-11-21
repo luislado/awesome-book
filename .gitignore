@@ -28,4 +28,4 @@ rsconnect/
 .Rdata
 .DS_Store
 .quarto
-index.Rmd
+#index.Rmd

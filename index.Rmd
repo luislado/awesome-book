@@ -4,7 +4,7 @@ author: "*Rodriguez Lado, L., Angelini, M.E, Luotto, I., Yigini*"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib, reference-list.bib]
+bibliography: [packages.bib, reference-list.bib]
 biblio-style: apalike
 link-citations: yes
 description: "A Guideline bookdown on Development of National Soil Legacy Data Repository."
