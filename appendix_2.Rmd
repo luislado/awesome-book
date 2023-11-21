@@ -2,6 +2,6 @@
 
 **GUIDELINES FOR DIGITALIZATION OF LEGACY SOIL MAPS**
 
-Legacy soil maps area unvaluable source of information about the distribution of soils and its properties. These maps are in the form of paper sheets that must be translated into proper digital formats. 
+Legacy soil maps are a valuable source of information about the distribution of soils and its properties. These maps are in the form of paper sheets that must be translated into proper digital formats. 
 
  
