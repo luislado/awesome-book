@@ -1,3 +1,4 @@
+fig:fig-harmonize
 introduction
 importance-of-preserving-soil-legacy-data.
 benefits-of-a-centralised-data-repository-for-soil-data.
