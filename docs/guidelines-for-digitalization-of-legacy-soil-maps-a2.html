@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Appendix IV | Guidelines on Development of National Soil Legacy Data Repository</title>
+  <title>Chapter 6 Guidelines for Digitalization of legacy soil maps {A2} | Guidelines on Development of National Soil Legacy Data Repository</title>
   <meta name="description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Appendix IV | Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta property="og:title" content="Chapter 6 Guidelines for Digitalization of legacy soil maps {A2} | Guidelines on Development of National Soil Legacy Data Repository" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Appendix IV | Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta name="twitter:title" content="Chapter 6 Guidelines for Digitalization of legacy soil maps {A2} | Guidelines on Development of National Soil Legacy Data Repository" />
   
   <meta name="twitter:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="appendix-iii.html"/>
-<link rel="next" href="references.html"/>
+<link rel="prev" href="appendix-i.html"/>
+<link rel="next" href="appendix-iii.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -157,50 +157,112 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="appendix-iv" class="section level1 unnumbered hasAnchor">
-<h1>Appendix IV<a href="appendix-iv.html#appendix-iv" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><strong>ISO STANDARDS RELATED TO SOIL QUALITY AND GEOGRAPHIC INFORMATION SERVICES</strong></p>
-<p>The development of a soil legacy data repository can be guided by various International Organisation for Standardisation (ISO) standards related to soil quality, ensuring the accuracy, consistency, and international compatibility of the data within soil projects. Some key ISO standards relevant to this field include:</p>
+<div id="guidelines-for-digitalization-of-legacy-soil-maps-a2" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Guidelines for Digitalization of legacy soil maps {A2}<a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#guidelines-for-digitalization-of-legacy-soil-maps-a2" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Legacy soil maps are a valuable source of information about the distribution of soils and its properties. These maps are in the form of paper sheets that must be translated into proper digital formats. Building a digital repository for legacy maps is a detailed and methodical process that transforms valuable historical map data in paper format, into a digital format that’s accessible, accurate, and useful for various applications. Each step, from preparation and digitization to database development and user interface design, plays a critical role in creating a repository that meets the needs of its users and stands the test of time.</p>
+<p>Creating a digital repository for legacy maps at a national scale involves a series of methodical steps. Below is a comprehensive guideline of to facilitate this process:</p>
+<div id="project-planning-and-scope-definition" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> <strong>1. Project Planning and Scope Definition</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#project-planning-and-scope-definition" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><p>ISO TC-190 -ISO TC-345: soil properties.</p></li>
-<li><p>ISO 11074 &amp; ISO 11074/Amd1:2020: This standard focuses on Soil Quality Vocabulary, providing a comprehensive set of terms and definitions relevant to soil quality, essential for standardising communication and understanding in soil data repositories.</p></li>
-<li><p>ISO 15903: This standard focuses on Format and recording of soil and site information.</p></li>
-<li><p>ISO 25177: Field Soil Description. It provides guidelines for describing soil in the field, which is crucial for accurate data collection and categorization in a repository.</p></li>
-<li><p>ISO 18400 Series: These standards cover various aspects of Soil Quality Sampling, including:</p>
-<ul>
-<li>ISO 18400-101: Framework for preparation and application of a sampling plan.</li>
-<li>ISO 18400-102: Selection and application of sampling techniques.</li>
-<li>ISO 18400-103: Safety considerations during soil sampling.</li>
-<li>ISO 18400-104: Strategies for soil sampling.</li>
-<li>ISO 18400-106: Quality control and assurance in soil sampling.</li>
-<li>ISO 18400-107: Recording and reporting of soil sampling data.</li>
-<li>ISO 18400-203: Investigation of potentially contaminated sites.</li>
-<li>ISO 18400-205: Guidance on the procedure for investigating natural, near-natural, and cultivated sites.</li>
-</ul></li>
-<li><p>ISO 28258: This standard, Soil Quality — Digital Exchange of Soil-Related Data, provides a framework for the digital exchange of soil data, including a detailed domain model for soil observations. It is based on the Observations and Measurements (O&amp;M) standard issued by the OGC and ISO, and is particularly relevant for the structuring and digital handling of soil data in repositories.</p></li>
-<li><p>Data model for the ISO 28258 domain model: Postgres data model implementing the ISO-28258 standard, at <a href="https://iso28258.isric.org/">ISRIC</a>; <a href="https://git.wur.nl/isric/databases/iso28258-public">Github at</a></p></li>
-<li><p>ISO 23992 &amp; ISO 23992/Amd1:2019: Soil Quality — Framework for detailed recording and monitoring of changes in dynamic soil properties.</p></li>
+<li>Objective Setting: Define the purpose and scope of the digital repository, including the type of maps and associated information to be digitized.</li>
+<li>Resource Assessment: Allocate necessary resources including personnel, technology, and funding.</li>
+<li>Timeline Establishment: Create a project timeline with milestones and deadlines.</li>
 </ul>
-<p>These standards offer comprehensive guidelines for various aspects of soil data management, from vocabulary and field description to sampling techniques, safety, reporting, and digital data exchange. Implementing these standards in the development of a soil legacy data repository ensures that the data is accurate, consistent, and aligned with international best practices.</p>
+</div>
+<div id="data-collection-and-inventory" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> <strong>2. Data Collection and Inventory</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#data-collection-and-inventory" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><p>ISO 19168-1: Geographic information — Geospatial API for features — Part 1: Core. This document specifies the behaviour of Web APIs that provide access to features in a dataset in a manner independent of the underlying data store. This document defines discovery and query operations.</p></li>
-<li><p>ISO 19115-1: Geographic information – Metadata. An internationally-adopted schema for describing geographic information and services. It provides information about the identification, the extent, the quality, the spatial and temporal schema, spatial reference, and distribution of digital geographic data.</p></li>
-<li><p>ISO 19119: Geographic information services. Defines requirements for how platform neutral and platform specific specification of services shall be created, in order to allow for one service to be specified independently of one or more underlying distributed computing platforms.</p></li>
-<li><p>ISO/TS 19139-1: Defines XML-based encoding rules for conceptual schemas specifying types that describe geographic resources. The encoding rules support the UML profile as used in the UML models commonly used in the standards developed by ISO/TC 211. The encoding rules use XML schema for the output data structure schema.</p></li>
-<li><p>ISO 28258 domain model:</p></li>
+<li>Map Sourcing: Gather all paper maps that need to be digitized.</li>
+<li>Inventory Creation: Create an inventory of these maps, noting their condition, scale, date, and any other relevant details.</li>
 </ul>
-<p>Soil organic carbon content - ISO10694 (dry combustion method).
-pH - ISO TC 190 (1:5 suspension of soil in water or using the CaCl2 solution)
-Cation Exchange Capacity - ISO11260 (Barium Chloride)</p>
+</div>
+<div id="preparation-of-paper-maps-for-digitization" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> <strong>3. Preparation of Paper Maps for Digitization</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#preparation-of-paper-maps-for-digitization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Map Cleaning and Repair: Ensure maps are clean and repair any damages to improve scan quality.</li>
+<li>Cataloging: Catalog each map in detail, including metadata like geographical coverage, scale, date of creation, and source.</li>
+</ul>
+</div>
+<div id="digitization-process" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> <strong>4. Digitization Process</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#digitization-process" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Selecting Scanning Technology: Choose appropriate scanning technology based on map size, quality, and detail.</li>
+<li>Scanning: Carefully scan each map to create digital copies, ensuring high resolution and clarity.</li>
+<li>Quality Control: Conduct quality checks to ensure scans are clear and accurate representations of the original maps.</li>
+</ul>
+</div>
+<div id="georeferencing-and-rectification" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> <strong>5. Georeferencing and Rectification</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#georeferencing-and-rectification" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Georeferencing: Assign geographic coordinates to the digitized maps so they align with real-world locations.</li>
+<li>Rectification: Correct any distortions in the maps to ensure geographical accuracy.</li>
+</ul>
+</div>
+<div id="data-extraction-and-vectorization" class="section level2 hasAnchor" number="6.6">
+<h2><span class="header-section-number">6.6</span> <strong>6. Data Extraction and Vectorization</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#data-extraction-and-vectorization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Extracting Information: Extract relevant information from the maps, including geographical features, legends, and notes.</li>
+<li>Vectorization: Convert map features into vector data for GIS compatibility and manipulation.</li>
+</ul>
+</div>
+<div id="metadata-creation-and-standardization" class="section level2 hasAnchor" number="6.7">
+<h2><span class="header-section-number">6.7</span> <strong>7. Metadata Creation and Standardization</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#metadata-creation-and-standardization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Metadata Documentation: Create detailed metadata for each map, including information on original source, date, scale, georeferencing details, and data accuracy.</li>
+<li>Standardization: Ensure metadata is standardized across all maps for consistency.</li>
+</ul>
+</div>
+<div id="database-development-and-data-import" class="section level2 hasAnchor" number="6.8">
+<h2><span class="header-section-number">6.8</span> <strong>8. Database Development and Data Import</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#database-development-and-data-import" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Database Design: Develop a database structure that accommodates maps and associated metadata.</li>
+<li>Data Import: Import digitized maps and metadata into the database.</li>
+</ul>
+</div>
+<div id="quality-assurance-and-data-validation" class="section level2 hasAnchor" number="6.9">
+<h2><span class="header-section-number">6.9</span> <strong>9. Quality Assurance and Data Validation</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#quality-assurance-and-data-validation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Error Checking: Perform thorough checks to identify and correct any errors or inconsistencies in the data.</li>
+<li>Validation: Validate the data against original maps and other reliable sources for accuracy.</li>
+</ul>
+</div>
+<div id="accessibility-and-user-interface-design" class="section level2 hasAnchor" number="6.10">
+<h2><span class="header-section-number">6.10</span> <strong>10. Accessibility and User Interface Design</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#accessibility-and-user-interface-design" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Access Permissions: Determine access levels for different users.</li>
+<li>User Interface: Develop a user-friendly interface for the digital repository, allowing easy search, access, and navigation.</li>
+</ul>
+</div>
+<div id="maintenance-and-updating" class="section level2 hasAnchor" number="6.11">
+<h2><span class="header-section-number">6.11</span> <strong>11. Maintenance and Updating</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#maintenance-and-updating" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Regular Updates: Establish procedures for regularly updating the repository with new data or corrections.</li>
+<li>Maintenance Plan: Develop a maintenance plan for the digital repository, including regular backups and technical support.</li>
+</ul>
+</div>
+<div id="legal-and-ethical-considerations" class="section level2 hasAnchor" number="6.12">
+<h2><span class="header-section-number">6.12</span> <strong>12. Legal and Ethical Considerations</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#legal-and-ethical-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Copyright Compliance: Ensure digitization and sharing of map data comply with copyright laws.</li>
+<li>Ethical Standards: Adhere to ethical standards in data sharing and usage.</li>
+</ul>
+</div>
+<div id="outreach-and-user-training" class="section level2 hasAnchor" number="6.13">
+<h2><span class="header-section-number">6.13</span> <strong>13. Outreach and User Training</strong><a href="guidelines-for-digitalization-of-legacy-soil-maps-a2.html#outreach-and-user-training" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Promotion: Promote the digital repository among potential users.</li>
+<li>Training Programs: Offer training programs for users to effectively utilize the repository.</li>
+</ul>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="appendix-iii.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="appendix-i.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="appendix-iii.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -231,7 +293,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/luislado/bookdown-tutorial/edit/master/appendix_4.Rmd",
+"link": "https://github.com/luislado/bookdown-tutorial/edit/master/appendix_2.Rmd",
 "text": "Edit"
 },
 "history": {

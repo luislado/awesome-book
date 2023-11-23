@@ -1,7 +1,42 @@
 # Appendix II  {-}
 
-**GUIDELINES FOR DIGITALIZATION OF LEGACY SOIL MAPS**
+**ISO STANDARDS RELATED TO SOIL QUALITY AND GEOGRAPHIC INFORMATION SERVICES**
 
-Legacy soil maps are a valuable source of information about the distribution of soils and its properties. These maps are in the form of paper sheets that must be translated into proper digital formats. 
+The development of a soil legacy data repository can be guided by various International Organisation for Standardisation (ISO) standards related to soil quality, ensuring the accuracy, consistency, and international compatibility of the data within soil projects. Some key ISO standards relevant to this field include:
 
+* ISO TC-190 -ISO TC-345: soil properties.
+* ISO 11074 & ISO 11074/Amd1:2020: This standard focuses on Soil Quality Vocabulary, providing a comprehensive set of terms and definitions relevant to soil quality, essential for standardising communication and understanding in soil data repositories.
+* ISO 15903: This standard focuses on Format and recording of soil and site information.
+* ISO 25177: Field Soil Description. It provides guidelines for describing soil in the field, which is crucial for accurate data collection and categorization in a repository.
+
+* ISO 18400 Series: These standards cover various aspects of Soil Quality Sampling, including:
+   *  ISO 18400-101: Framework for preparation and application of a sampling plan.
+   *  ISO 18400-102: Selection and application of sampling techniques.
+   *  ISO 18400-103: Safety considerations during soil sampling.
+   *  ISO 18400-104: Strategies for soil sampling.
+   *  ISO 18400-106: Quality control and assurance in soil sampling.
+   *  ISO 18400-107: Recording and reporting of soil sampling data.
+   *  ISO 18400-203: Investigation of potentially contaminated sites.
+   *  ISO 18400-205: Guidance on the procedure for investigating natural, near-natural, and cultivated sites.
+
+* ISO 28258: This standard, Soil Quality — Digital Exchange of Soil-Related Data, provides a framework for the digital exchange of soil data, including a detailed domain model for soil observations. It is based on the Observations and Measurements (O&M) standard issued by the OGC and ISO, and is particularly relevant for the structuring and digital handling of soil data in repositories.
+
+* Data model for the ISO 28258 domain model: Postgres data model implementing the ISO-28258 standard, at [ISRIC](https://iso28258.isric.org/); [Github at](https://git.wur.nl/isric/databases/iso28258-public)
+* ISO 23992 & ISO 23992/Amd1:2019: Soil Quality — Framework for detailed recording and monitoring of changes in dynamic soil properties.
+
+These standards offer comprehensive guidelines for various aspects of soil data management, from vocabulary and field description to sampling techniques, safety, reporting, and digital data exchange. Implementing these standards in the development of a soil legacy data repository ensures that the data is accurate, consistent, and aligned with international best practices.
+
+* ISO 19168-1: Geographic information — Geospatial API for features — Part 1: Core. This document specifies the behaviour of Web APIs that provide access to features in a dataset in a manner independent of the underlying data store. This document defines discovery and query operations.
+
+* ISO 19115-1: Geographic information – Metadata.  An internationally-adopted schema for describing geographic information and services. It provides information about the identification, the extent, the quality, the spatial and temporal schema, spatial reference, and distribution of digital geographic data.
  
+* ISO 19119:  Geographic information services.  Defines requirements for how platform neutral and platform specific specification of services shall be created, in order to allow for one service to be specified independently of one or more underlying distributed computing platforms.
+
+* ISO/TS 19139-1: Defines XML-based encoding rules for conceptual schemas specifying types that describe geographic resources. The encoding rules support the UML profile as used in the UML models commonly used in the standards developed by ISO/TC 211. The encoding rules use XML schema for the output data structure schema.
+
+* ISO 28258 domain model:
+
+Soil organic carbon content - ISO10694 (dry combustion method).
+pH - ISO TC 190 (1:5 suspension of soil in water or using the CaCl2 solution)
+Cation Exchange Capacity - ISO11260 (Barium Chloride)
+

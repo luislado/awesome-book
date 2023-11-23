@@ -9,3 +9,5 @@ This requirement is addressed at Global Soil Partnership within ` Pillar 4 - enh
 ```{r, fig-harmonize, fig.cap = "Output of the Shiny app to harmonize soil properties to fixed soil depths", echo = FALSE}
 knitr::include_graphics("images/shinyapp_harmonize.png")
 ```
+
+

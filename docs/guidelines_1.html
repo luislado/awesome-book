@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Integration with Digital Soil Mapping | Guidelines on Development of National Soil Legacy Data Repository</title>
+  <title>Chapter 6 Guidelines for Digitalization of Soil Profile Data | Guidelines on Development of National Soil Legacy Data Repository</title>
   <meta name="description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Integration with Digital Soil Mapping | Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta property="og:title" content="Chapter 6 Guidelines for Digitalization of Soil Profile Data | Guidelines on Development of National Soil Legacy Data Repository" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Integration with Digital Soil Mapping | Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta name="twitter:title" content="Chapter 6 Guidelines for Digitalization of Soil Profile Data | Guidelines on Development of National Soil Legacy Data Repository" />
   
   <meta name="twitter:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data_accessibility.html"/>
-<link rel="next" href="guidelines_1.html"/>
+<link rel="prev" href="integration_DSM.html"/>
+<link rel="next" href="guidelines_2.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -222,33 +222,27 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="integration_DSM" class="section level1 hasAnchor" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Integration with Digital Soil Mapping<a href="integration_DSM.html#integration_DSM" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>As described previously, a proper Soil Legacy Data Repository constitutes a valuable resource of data in many fields of application. In particular, it is highly valuable in Digital Soil Mapping implementations to derive maps of soil properties from existing data <span class="citation">(<a href="#ref-CARRE20071" role="doc-biblioref">Carré, McBratney, and Minasny 2007</a>)</span>.
-The integration of such data in DSM activities requires additional data harmonisation procedures to ensure that the estimations comply with a common set of rules: the dataset has to include the same properties in relation to the same soil depth interval, which generally is not the case in databases of soil data. Soil profiles are formed by soil horizons, with properties measured at the soil horizon depth, and harmonisation of soil profile layers, to determine the values of properties at the same soil depth, is required to derive a sound database to be used within a DSM framework.
-This requirement is addressed at Global Soil Partnership within <code>Pillar 4 - enhance the quantity and quality of soil data and information</code>: data collection, analysis, validation, reporting, monitoring and integration with other disciplines; and <code>Pillar 5 - harmonisation of methods, measurements and indicators for the sustainable management and protection of soil resources</code>. In this sense, methods for soil data layer harmonisation have been developed at GSP. The procedure is described in section 6.5 of the <a href="https://fao-gsp.github.io/GSNmap-TM/">Global Soil Nutrient and Nutrient Budgets maps (GSNmap) Phase I Technical manual</a>.
-(Harmonize Soil Layer Depths). This methodology makes use of splines interpolation methods to derive a harmonised database at fixed soil depths. A friendly integration of such analyses is available within a <a href="https://geoforsk.shinyapps.io/Harmonize/">Shiny web application</a> at the site <a href="https://geoforsk.shinyapps.io/Harmonize/" class="uri">https://geoforsk.shinyapps.io/Harmonize/</a> (Figure <a href="integration_DSM.html#fig:fig-harmonize">5.1</a>). You can download an example file to use within the application at <a href="http://www.geoforsk.com/datos/fao/example.xlsx" class="uri">http://www.geoforsk.com/datos/fao/example.xlsx</a>.</p>
-<div class="figure"><span style="display:block;" id="fig:fig-harmonize"></span>
-<img src="images/shinyapp_harmonize.png" alt="Output of the Shiny app to harmonize soil properties to fixed soil depths" width="1174" />
-<p class="caption">
-Figure 5.1: Output of the Shiny app to harmonize soil properties to fixed soil depths
-</p>
-</div>
+<div id="guidelines_1" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Guidelines for Digitalization of Soil Profile Data<a href="guidelines_1.html#guidelines_1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<ul>
+<li><strong>New Zealand National Soil Data Repository (NSDR):</strong>
+The National Soils Database (NSD) in New Zealand is a critical part of the soil data legacy. It includes descriptions and profile data collected from soil pits, with around 1500 New Zealand samples. These samples cover chemical, physical, and mineralogical characteristics of the soils. The NSDR hosts the original NSD and is designed as a versatile soil observation database, capable of generating new soil information from a diverse set of data sources. This includes soil quality data, National Soils database data, and DSM products.</li>
+<li><strong>Australia Soil and Landscape Grids:</strong>
+In Australia, the Soil and Landscape Grids were produced based on legacy soil data compiled in the National Soil Site Collation database. This database meets the specifications of the GlobalSoilMap project and includes 13 soil attribute surfaces that are publicly available. The predictions in this database were performed using cubist-kriging, a method for soil data analysis​​.</li>
+<li><strong>United States Web Soil Survey (WSS):</strong>
+The Web Soil Survey (WSS) provides soil data and information produced by the National Cooperative Soil Survey. Operated by the USDA Natural Resources Conservation Service (NRCS), it offers access to one of the largest natural resource information systems in the world. The WSS is a public-facing tool that provides comprehensive soil data for various applications​​.</li>
+<li><strong>European Soil Data Centre (ESDAC):</strong>
+The European Soil Data Centre (ESDAC) serves as a significant repository for soil-related data. ESDAC stands as the thematic centre for soil data in Europe, aiming to be the single reference point for all relevant soil data and information at the European level. It provides access to various authoritative European soil-related datasets such as the European Soil Database (ESDB). Unlike national soil data repositories that focus on specific countries or regions, ESDAC offers a broader perspective, presenting detailed soil information on an European scale.</li>
+</ul>
 
-</div>
-<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-CARRE20071" class="csl-entry">
-Carré, F., Alex B. McBratney, and B. Minasny. 2007. <span>“Estimation and Potential Improvement of the Quality of Legacy Soil Samples for Digital Soil Mapping.”</span> <em>Geoderma</em> 141 (1): 1–14. https://doi.org/<a href="https://doi.org/10.1016/j.geoderma.2007.01.018">https://doi.org/10.1016/j.geoderma.2007.01.018</a>.
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="data_accessibility.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="guidelines_1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="integration_DSM.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="guidelines_2.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -279,7 +273,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/luislado/bookdown-tutorial/edit/master/integration_dsm.Rmd",
+"link": "https://github.com/luislado/bookdown-tutorial/edit/master/guidelines_1.Rmd",
 "text": "Edit"
 },
 "history": {

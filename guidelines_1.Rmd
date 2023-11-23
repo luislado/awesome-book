@@ -1,6 +1,5 @@
-# Appendix III  {-}
+# Guidelines for Digitalization of Soil Profile Data {#guidelines_1}
 
-**SOME NOTABLE NATIONAL SOIL LEGACY DATA REPOSITORIES**
 
 * **New Zealand National Soil Data Repository (NSDR):**
 The National Soils Database (NSD) in New Zealand is a critical part of the soil data legacy. It includes descriptions and profile data collected from soil pits, with around 1500 New Zealand samples. These samples cover chemical, physical, and mineralogical characteristics of the soils. The NSDR hosts the original NSD and is designed as a versatile soil observation database, capable of generating new soil information from a diverse set of data sources. This includes soil quality data, National Soils database data, and DSM products.

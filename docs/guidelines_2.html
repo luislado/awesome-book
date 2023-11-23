@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Integration with Digital Soil Mapping | Guidelines on Development of National Soil Legacy Data Repository</title>
+  <title>Chapter 7 Guidelines for Digitalization of Legacy Soil Maps | Guidelines on Development of National Soil Legacy Data Repository</title>
   <meta name="description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Integration with Digital Soil Mapping | Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta property="og:title" content="Chapter 7 Guidelines for Digitalization of Legacy Soil Maps | Guidelines on Development of National Soil Legacy Data Repository" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Integration with Digital Soil Mapping | Guidelines on Development of National Soil Legacy Data Repository" />
+  <meta name="twitter:title" content="Chapter 7 Guidelines for Digitalization of Legacy Soil Maps | Guidelines on Development of National Soil Legacy Data Repository" />
   
   <meta name="twitter:description" content="A Guideline bookdown on Development of National Soil Legacy Data Repository." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data_accessibility.html"/>
-<link rel="next" href="guidelines_1.html"/>
+<link rel="prev" href="guidelines_1.html"/>
+<link rel="next" href="automated-techniques-for-data-extraction..html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -222,24 +222,127 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="integration_DSM" class="section level1 hasAnchor" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Integration with Digital Soil Mapping<a href="integration_DSM.html#integration_DSM" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>As described previously, a proper Soil Legacy Data Repository constitutes a valuable resource of data in many fields of application. In particular, it is highly valuable in Digital Soil Mapping implementations to derive maps of soil properties from existing data <span class="citation">(<a href="#ref-CARRE20071" role="doc-biblioref">Carré, McBratney, and Minasny 2007</a>)</span>.
-The integration of such data in DSM activities requires additional data harmonisation procedures to ensure that the estimations comply with a common set of rules: the dataset has to include the same properties in relation to the same soil depth interval, which generally is not the case in databases of soil data. Soil profiles are formed by soil horizons, with properties measured at the soil horizon depth, and harmonisation of soil profile layers, to determine the values of properties at the same soil depth, is required to derive a sound database to be used within a DSM framework.
-This requirement is addressed at Global Soil Partnership within <code>Pillar 4 - enhance the quantity and quality of soil data and information</code>: data collection, analysis, validation, reporting, monitoring and integration with other disciplines; and <code>Pillar 5 - harmonisation of methods, measurements and indicators for the sustainable management and protection of soil resources</code>. In this sense, methods for soil data layer harmonisation have been developed at GSP. The procedure is described in section 6.5 of the <a href="https://fao-gsp.github.io/GSNmap-TM/">Global Soil Nutrient and Nutrient Budgets maps (GSNmap) Phase I Technical manual</a>.
-(Harmonize Soil Layer Depths). This methodology makes use of splines interpolation methods to derive a harmonised database at fixed soil depths. A friendly integration of such analyses is available within a <a href="https://geoforsk.shinyapps.io/Harmonize/">Shiny web application</a> at the site <a href="https://geoforsk.shinyapps.io/Harmonize/" class="uri">https://geoforsk.shinyapps.io/Harmonize/</a> (Figure <a href="integration_DSM.html#fig:fig-harmonize">5.1</a>). You can download an example file to use within the application at <a href="http://www.geoforsk.com/datos/fao/example.xlsx" class="uri">http://www.geoforsk.com/datos/fao/example.xlsx</a>.</p>
-<div class="figure"><span style="display:block;" id="fig:fig-harmonize"></span>
-<img src="images/shinyapp_harmonize.png" alt="Output of the Shiny app to harmonize soil properties to fixed soil depths" width="1174" />
+<div id="guidelines_2" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Guidelines for Digitalization of Legacy Soil Maps<a href="guidelines_2.html#guidelines_2" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Legacy soil maps are a valuable source of information about the distribution of soils and its properties. These maps are in the form of paper sheets that must be translated into proper digital formats. Building a digital repository for legacy maps is a detailed and methodical process that transforms valuable historical map data in paper format, into a digital format that’s accessible, accurate, and useful for various applications. Each step, from preparation and digitization to database development and user interface design, plays a critical role in creating a repository that meets the needs of its users and stands the test of time.</p>
+<p>Creating a digital repository for legacy maps involves a series of methodical steps. Below is a comprehensive guideline of to facilitate this process:</p>
+<div id="project-planning-and-scope-definition" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Project Planning and Scope Definition<a href="guidelines_2.html#project-planning-and-scope-definition" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Objective Setting: Define the purpose and scope of the digital repository, including the type of maps and associated information to be digitized, as well as the structure of the database, file naming and structure of the data storage.</li>
+<li>Allocate essential resources such as skilled personnel, advanced technology, and sufficient funding. Digitizing large maps necessitates specialized staff and appropriate digitizing equipment. While small scanners can be used, large-format scanners are preferable for efficiency in the digitization process. Given that digitization generates substantial file sizes, adequate data storage solutions must be in place to handle the considerable volume of data produced. The digitization process is labour-intensive and demands significant time investment, necessitating careful financial planning to cover the costs associated with staffing and other related expenses.</li>
+<li>Timeline Establishment: Developing a comprehensive project timeline is crucial for the successful completion of the digital repository. This involves delineating specific milestones and setting firm deadlines for each phase of the project. Start by mapping out the initial stages, such as data collection, preparation of paper maps, and the procurement of necessary equipment and resources. Assign realistic timeframes to each of these activities, considering factors like the volume of maps to be digitized, the availability of resources, and the complexity of the tasks. Following the preparation phase, outline the time required for the actual digitization process. This includes scanning, quality checks, georeferencing, and rectification of the maps. Allocate sufficient time for data extraction, vectorization, and the subsequent integration of this data into the database, ensuring that each step is afforded the attention it requires for accuracy and thoroughness.
+Next, incorporate time for the creation and standardization of metadata, a critical component that facilitates data retrieval and utilization. Factor in additional time for database development and the importing of digitized maps and metadata. Include a phase for quality assurance and data validation to ensure the integrity and accuracy of the digital repository. This phase should allow for review, error correction, and cross-verification against original sources. Finally, designate time for discussing data accessibility, and the implementation of potential training programs for developers. It’s essential to also include ongoing maintenance and regular updates in the timeline.</li>
+</ul>
+</div>
+<div id="data-collection-and-inventory" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Data Collection and Inventory<a href="guidelines_2.html#data-collection-and-inventory" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Map Sourcing: Gather all paper maps that need to be digitized.</li>
+<li>Inventory Creation: Create an inventory of these maps, noting their condition, scale, date, and any other relevant details. Catalogue each map in detail, including metadata like geographical coverage, scale, date of creation, and source.</li>
+</ul>
+</div>
+<div id="preparation-of-paper-maps-for-digitization" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Preparation of Paper Maps for Digitization<a href="guidelines_2.html#preparation-of-paper-maps-for-digitization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Map Cleaning and Repair: This step is important to enhance the quality of the scans, ensuring that the digitized versions accurately reflect the original maps. The goal is to prepare the maps in a way that maximizes the clarity and readability of the digital images, thereby facilitating a more precise and effective digitization process. Ensure maps are clean and repair any damages to improve scan quality. Special attention should be paid to preserving the integrity of the maps during cleaning and repair, using appropriate archival materials and techniques to avoid further deterioration.</li>
+</ul>
+</div>
+<div id="digitization-process" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Digitization Process<a href="guidelines_2.html#digitization-process" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Scanning: Choose appropriate scanning technology based on map size, quality, and detail. Carefully scan each map to create digital copies, ensuring high resolution and clarity. Scan the maps in the way that north points to the top.</p></li>
+<li><p>Quality Control: Conduct quality checks to ensure scans are clear and accurate representations of the original maps. Legacy maps are often stored in unfavourable ambient conditions. Take into consideration that characteristics such as room moisture can alter the size of the maps and cause deformations that can be a source of uncertainty in later steps of digitalization.</p></li>
+</ul>
+</div>
+<div id="georeferencing-and-rectification" class="section level2 hasAnchor" number="7.5">
+<h2><span class="header-section-number">7.5</span> Georeferencing and Rectification<a href="guidelines_2.html#georeferencing-and-rectification" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Georeferencing: Assign geographic coordinates to the digitized maps so they align with real-world locations.</li>
+<li>Rectification: Correct any distortions in the maps to ensure geographical accuracy.</li>
+</ul>
+<p>Steps in QGIS.
+1) Add a vector layer covering the extension of the map. It can be a shapefile with the national boundaries. Use a map with a known coordinate system - i.e. EPSG:4326</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Create a grid of reference as the coordinate grid in the paper map. Vector -&gt; Research Tools -&gt; Create Grid</li>
+</ol>
+<div class="figure">
+<img src="images/georreference_fig1.png" alt="Create Grid options" width="904" />
 <p class="caption">
-Figure 5.1: Output of the Shiny app to harmonize soil properties to fixed soil depths
+(#fig:fig-georreference_fig1)Create Grid options
 </p>
 </div>
-
+<div class="figure">
+<img src="images/georreference_fig2.png" alt="Create Grid dialog box" width="551" />
+<p class="caption">
+(#fig:fig-georreference_fig2)Create Grid dialog box
+</p>
 </div>
-<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-CARRE20071" class="csl-entry">
-Carré, F., Alex B. McBratney, and B. Minasny. 2007. <span>“Estimation and Potential Improvement of the Quality of Legacy Soil Samples for Digital Soil Mapping.”</span> <em>Geoderma</em> 141 (1): 1–14. https://doi.org/<a href="https://doi.org/10.1016/j.geoderma.2007.01.018">https://doi.org/10.1016/j.geoderma.2007.01.018</a>.
+<ol start="3" style="list-style-type: decimal">
+<li>Open the Georeferencer: Layer -&gt; Georeferencer. The Georeferencer dialog box will appear.</li>
+</ol>
+<div class="figure">
+<img src="images/georreference_fig3.png" alt="Georeferencer box" width="551" />
+<p class="caption">
+(#fig:fig-georreference_fig3)Georeferencer box
+</p>
+</div>
+</div>
+<div id="data-extraction-and-vectorization" class="section level2 hasAnchor" number="7.6">
+<h2><span class="header-section-number">7.6</span> Data Extraction and Vectorization<a href="guidelines_2.html#data-extraction-and-vectorization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Extracting Information: Extract relevant information from the maps, including geographical features, legends, and notes.</li>
+<li>Vectorization: Convert map features into vector data for GIS compatibility and manipulation.</li>
+</ul>
+</div>
+<div id="metadata-creation-and-standardization" class="section level2 hasAnchor" number="7.7">
+<h2><span class="header-section-number">7.7</span> Metadata Creation and Standardization<a href="guidelines_2.html#metadata-creation-and-standardization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Metadata Documentation: Create detailed metadata for each map, including information on original source, date, scale, georeferencing details, and data accuracy.</li>
+<li>Standardization: Ensure metadata is standardized across all maps for consistency.</li>
+</ul>
+</div>
+<div id="database-development-and-data-import" class="section level2 hasAnchor" number="7.8">
+<h2><span class="header-section-number">7.8</span> Database Development and Data Import<a href="guidelines_2.html#database-development-and-data-import" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Database Design: Develop a database structure that accommodates maps and associated metadata.</li>
+<li>Data Import: Import digitized maps and metadata into the database.</li>
+</ul>
+</div>
+<div id="quality-assurance-and-data-validation" class="section level2 hasAnchor" number="7.9">
+<h2><span class="header-section-number">7.9</span> Quality Assurance and Data Validation<a href="guidelines_2.html#quality-assurance-and-data-validation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Error Checking: Perform thorough checks to identify and correct any errors or inconsistencies in the data.</li>
+<li>Validation: Validate the data against original maps and other reliable sources for accuracy.</li>
+</ul>
+</div>
+<div id="accessibility-and-user-interface-design" class="section level2 hasAnchor" number="7.10">
+<h2><span class="header-section-number">7.10</span> Accessibility and User Interface Design<a href="guidelines_2.html#accessibility-and-user-interface-design" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Access Permissions: Determine access levels for different users.</li>
+<li>User Interface: Develop a user-friendly interface for the digital repository, allowing easy search, access, and navigation.</li>
+</ul>
+</div>
+<div id="maintenance-and-updating" class="section level2 hasAnchor" number="7.11">
+<h2><span class="header-section-number">7.11</span> Maintenance and Updating<a href="guidelines_2.html#maintenance-and-updating" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Regular Updates: Establish procedures for regularly updating the repository with new data or corrections.</li>
+<li>Maintenance Plan: Develop a maintenance plan for the digital repository, including regular backups and technical support.</li>
+</ul>
+</div>
+<div id="legal-and-ethical-considerations" class="section level2 hasAnchor" number="7.12">
+<h2><span class="header-section-number">7.12</span> Legal and Ethical Considerations<a href="guidelines_2.html#legal-and-ethical-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Copyright Compliance: Ensure digitization and sharing of map data comply with copyright laws.</li>
+<li>Ethical Standards: Adhere to ethical standards in data sharing and usage.</li>
+</ul>
+</div>
+<div id="outreach-and-user-training" class="section level2 hasAnchor" number="7.13">
+<h2><span class="header-section-number">7.13</span> Outreach and User Training<a href="guidelines_2.html#outreach-and-user-training" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Promotion: Promote the digital repository among potential users.</li>
+<li>Training Programs: Offer training programs for users to effectively utilize the repository.</li>
+</ul>
 </div>
 </div>
             </section>
@@ -247,8 +350,8 @@ Carré, F., Alex B. McBratney, and B. Minasny. 2007. <span>“Estimation and Pot
           </div>
         </div>
       </div>
-<a href="data_accessibility.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="guidelines_1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="guidelines_1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="automated-techniques-for-data-extraction..html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -279,7 +382,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/luislado/bookdown-tutorial/edit/master/integration_dsm.Rmd",
+"link": "https://github.com/luislado/bookdown-tutorial/edit/master/guidelines_2.Rmd",
 "text": "Edit"
 },
 "history": {

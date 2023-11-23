@@ -9,10 +9,10 @@ rmd_files: [
   "data_organization.Rmd",
   "data_accessibility.Rmd", 
   "integration_dsm.Rmd",
+  "guidelines_1.Rmd",
+  "guidelines_2.Rmd",
   "appendix_1.Rmd",
   "appendix_2.Rmd",
-  "appendix_3.Rmd",
-  "appendix_4.Rmd",
   "references.Rmd"]
 delete_merged_file: true 
 output_dir: "docs"
