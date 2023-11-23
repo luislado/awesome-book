@@ -31,17 +31,17 @@ Creating a digital repository for legacy maps involves a series of methodical st
    
    2) Create a grid of reference as the coordinate grid in the paper map. Vector -> Research Tools -> Create Grid
    
-```{r, fig-georreference_fig1, fig.cap = "Create Grid options", echo = FALSE}
+```{r, fig-georreference1, fig.cap = "Create Grid options", echo = FALSE}
 knitr::include_graphics("images/georreference_fig1.png")
 ```
 
-```{r, fig-georreference_fig2, fig.cap = "Create Grid dialog box", echo = FALSE}
+```{r, fig-georreference2, fig.cap = "Create Grid dialog box", echo = FALSE}
 knitr::include_graphics("images/georreference_fig2.png")
 ```
 
    3) Open the Georeferencer: Layer -> Georeferencer. The Georeferencer dialog box will appear.
    
-```{r, fig-georreference_fig3, fig.cap = "Georeferencer box", echo = FALSE}
+```{r, fig-georreference3, fig.cap = "Georeferencer box", echo = FALSE}
 knitr::include_graphics("images/georreference_fig3.png")
 ```
 
