@@ -34,21 +34,21 @@ Creating a digital repository for legacy maps involves a series of methodical st
    
    2) Create a grid of reference as the coordinate grid in the paper map. `Vector -> Research Tools -> Create Grid`
    
-```{r, fig-georreference1, fig.cap = "Create Grid options", echo = FALSE}
+```{r, fig-georreference1, fig.cap = "Create Grid options", echo = FALSE, out.width="50%"}
 knitr::include_graphics("images/georeference_fig1.png")
 ```
 
-```{r, fig-georreference2, fig.cap = "Create Grid dialog box", echo = FALSE}
+```{r, fig-georreference2, fig.cap = "Create Grid dialog box", echo = FALSE, out.width="50%"}
 knitr::include_graphics("images/georeference_fig2.png")
 ```
 
    3) Open the `Georeferencer`.
    
-```{r, fig-georreference3, fig.cap = "Georeferencer in menu", echo = FALSE}
+```{r, fig-georreference3, fig.cap = "Georeferencer in menu", echo = FALSE, out.width="35%"}
 knitr::include_graphics("images/georeference_fig3.png")
 ```
 
-```{r, fig-georreference4, fig.cap = "Georeferencer box", echo = FALSE}
+```{r, fig-georreference4, fig.cap = "Georeferencer box", echo = FALSE, out.width="70%"}
 knitr::include_graphics("images/georeference_fig4.png")
 ```
 
@@ -56,19 +56,19 @@ knitr::include_graphics("images/georeference_fig4.png")
  `Add the raster layer` <img src="images/add_raster.png" width="20" style="display: inline-block" /> to be georeferenced. Then start to `Add Ground Control Points (GCP)` <img src="images/add_gcp.png" width="20" style="display: inline-block" /> on the map. Click on a point of the map where real coordinates are known and add it to the list of GCP. As an alternative, you can also add real coordinates by clicking the relative point on a georeferenced map on the main Qgis View window by using the `From Canvas Map` button. It is convenient to have a georeferenced WMS image service loaded into your main window. Remember to `Save the GCP` periodically in your local system <img src="images/save_gcp.png" width="20" style="display: inline-block" />.
  
  
-```{r, fig-georreference5, fig.cap = "Georeferencing procedure", echo = FALSE}
+```{r, fig-georreference5, fig.cap = "Georeferencing procedure", echo = FALSE, out.width="70%"}
 knitr::include_graphics("images/georeference_fig5.png")
 ```
 
  Open the `Settings` <img src="images/settings.png" width="20" style="display: inline-block" /> options and define the name and file type of the output georeferenced image, adjust the coordinate system and the type of transformation.
  
-```{r, fig-georreference6, fig.cap = "Georeferencing procedure", echo = FALSE}
+```{r, fig-georreference6, fig.cap = "Transformation Settings Menu", echo = FALSE, out.width="70%"}
 knitr::include_graphics("images/georeference_fig6.png")
 ```
 
 Go back to the main menu and click on the `Start Georeferencing` button <img src="images/start_georeferencing.png" width="20" style="display: inline-block" />, the new image will be saved in the disk and added to the man Qgis window (Fig. \@ref(fig:fig-georreference7)).
 
-```{r, fig-georreference7, fig.cap = "Georeferenced output", echo = FALSE}
+```{r, fig-georreference7, fig.cap = "Georeferenced output", echo = FALSE, out.width="70%"}
 knitr::include_graphics("images/georeference_fig7.png")
 ```
 
